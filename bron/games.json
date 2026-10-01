@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "lily-logic",
+    "naam": "Lily Logic",
+    "uitgever": "JonaGames",
+    "status": {"nl": "Binnenkort op Google Play", "en": "Coming soon to Google Play"},
+    "kort": {
+      "nl": "Een rustige logische puzzel: één kikker per veld, rij en kolom.",
+      "en": "A calm logic puzzle: one frog per patch, row and column."
+    },
+    "lang": {
+      "nl": "Lily Logic is een rustige logische puzzel voor Android. Op elke vijver zet je kikkers op de lelievelden: precies één per veld, rij en kolom, en ze raken elkaar nooit. Elke vijver heeft precies één oplossing en is met pure logica op te lossen. Gokken hoeft nooit.",
+      "en": "Lily Logic is a calm logic puzzle for Android. On every pond you place frogs on the lily patches: exactly one per patch, row and column, and they never touch. Every pond has exactly one solution and can be solved by pure logic. You never have to guess."
+    }
+  },
+  {
+    "slug": "football-director",
+    "naam": "Football Director",
+    "uitgever": "GEREED3D",
+    "status": {"nl": "Binnenkort op Google Play", "en": "Coming soon to Google Play"},
+    "kort": {
+      "nl": "Een voetbalmanager waarin jij de trainer bent, niet de eigenaar.",
+      "en": "A football manager where you are the manager, not the owner."
+    },
+    "lang": {
+      "nl": "Begin onderaan het Engelse voetbal en werk je omhoog door vijf competities. Het bestuur stelt een doel, hun geduld raakt op als de resultaten uitblijven, en clubs nemen je aan en ontslaan je. Bekijk elke wedstrijd live op het veld en pas tactiek, rollen en wissels aan terwijl het gebeurt. Scout, koop en verkoop spelers, onderhandel over salarissen, ontwikkel jeugd en neem staf aan. Geen account en geen internetverbinding nodig.",
+      "en": "Start at the bottom of English football and work your way up through five leagues. The board sets a target, their patience runs out when results don't come, and clubs hire and sack you. Watch every match on a live pitch and change tactics, roles and substitutions as it happens. Scout, buy and sell players, negotiate wages, develop youth players and hire staff. No account and no internet connection needed."
+    }
+  }
+]

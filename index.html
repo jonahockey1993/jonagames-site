@@ -3,44 +3,86 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lily Logic</title>
+<title>JonaGames</title>
+<meta name="description" content="Games voor Android van JonaGames.">
 <style>
-:root { color-scheme: light; }
-body { margin: 0; font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #24443b;
+:root { color-scheme: light; --tekst: #24443b; --accent: #2f5d50; --zacht: #4e8c7f; --vlak: #f7fbf9; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--tekst);
        background: linear-gradient(#e8f3ee, #cfe6df) fixed; }
-main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
-header { text-align: center; padding: 28px 0 8px; }
-header h1 { font-weight: 300; letter-spacing: .08em; font-size: 2.1rem; margin: 0; color: #2f5d50; }
-nav { text-align: center; margin: 8px 0 24px; }
-nav a { margin: 0 10px; }
-section { background: #f7fbf9; border-radius: 24px; padding: 8px 28px 24px; margin: 24px 0;
+.balk { position: sticky; top: 0; z-index: 10; background: rgba(247, 251, 249, .95);
+        box-shadow: 0 1px 8px rgba(36, 68, 59, .1); }
+.balk-in { max-width: 860px; margin: 0 auto; padding: 10px 16px; display: flex; align-items: center;
+           gap: 18px; flex-wrap: wrap; }
+.merk { font-weight: 600; letter-spacing: .06em; color: var(--accent); text-decoration: none; font-size: 1.15rem;
+        margin-right: auto; }
+.balk a, .balk summary { color: var(--accent); text-decoration: none; cursor: pointer; }
+.balk a:hover, .balk summary:hover { text-decoration: underline; }
+details.menu { position: relative; }
+details.menu summary { list-style: none; }
+details.menu summary::-webkit-details-marker { display: none; }
+details.menu summary::after { content: " ▾"; font-size: .8em; }
+details.menu[open] .lijst { display: block; }
+.lijst { display: none; position: absolute; right: 0; top: 2em; min-width: 220px; background: #fff;
+         border-radius: 14px; padding: 8px; box-shadow: 0 6px 24px rgba(36, 68, 59, .18); }
+.lijst a { display: block; padding: 8px 12px; border-radius: 10px; }
+.lijst a:hover { background: #e8f3ee; text-decoration: none; }
+.lijst small { display: block; color: var(--zacht); font-size: .8rem; }
+main { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+header.kop { text-align: center; padding: 24px 0 4px; }
+header.kop h1 { font-weight: 300; letter-spacing: .06em; font-size: 2.1rem; margin: 0; color: var(--accent); }
+header.kop p { margin: 4px 0 0; color: var(--zacht); }
+nav.taal { text-align: center; margin: 12px 0 8px; }
+nav.taal a { margin: 0 10px; color: var(--accent); }
+section { background: var(--vlak); border-radius: 24px; padding: 8px 28px 24px; margin: 24px 0;
           box-shadow: 0 2px 10px rgba(36, 68, 59, .08); }
-h2 { font-size: 1.4rem; margin-top: 1.4em; }
-h3 { font-size: 1.08rem; margin: 1.6em 0 .3em; color: #2f5d50; }
-a { color: #2f5d50; }
+.kaarten { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.kaart { background: #fff; border-radius: 18px; padding: 16px 20px; text-decoration: none; color: var(--tekst);
+         box-shadow: 0 2px 8px rgba(36, 68, 59, .08); }
+.kaart:hover { box-shadow: 0 4px 16px rgba(36, 68, 59, .18); }
+.kaart h3 { margin: 0 0 4px; }
+.kaart .status { color: var(--zacht); font-size: .85rem; }
+h2 { font-size: 1.4rem; margin-top: 1.2em; }
+h3 { font-size: 1.08rem; margin: 1.4em 0 .3em; color: var(--accent); }
+a { color: var(--accent); }
 li { margin: .3em 0; }
-footer { text-align: center; color: #4e8c7f; font-size: .9rem; }
+footer { text-align: center; color: var(--zacht); font-size: .9rem; margin-top: 32px; }
 </style>
 </head>
 <body>
+<div class="balk"><div class="balk-in">
+<a class="merk" href="/">JonaGames</a>
+<details class="menu"><summary>Games</summary><div class="lijst">
+<a href="/games/lily-logic/">Lily Logic<small>Een rustige logische puzzel: één kikker per veld, rij en kolom.</small></a>
+<a href="/games/football-director/">Football Director<small>Een voetbalmanager waarin jij de trainer bent, niet de eigenaar.</small></a>
+</div></details>
+<a href="/privacy.html">Privacy</a>
+<a href="/#contact">Contact</a>
+</div></div>
 <main>
-<header><h1>Lily Logic</h1></header>
-
+<header class="kop"><h1>JonaGames</h1><p>Games voor Android · Games for Android</p></header>
 <section lang="nl">
-<h2>Eén kikker per veld, rij en kolom</h2>
-<p>Lily Logic is een rustige logische puzzel voor Android. Elke vijver heeft precies één oplossing en is met pure logica op te lossen. Gokken hoeft nooit.</p>
-<p><a href="privacy.html#nl">Privacyverklaring</a></p>
+<h2>Onze games</h2>
+<p>Rustige, eerlijke games voor je telefoon. Geen account, geen opdringerige advertenties: een advertentie zie je alleen als je daar zelf voor kiest.</p>
+<div class="kaarten">
+<a class="kaart" href="/games/lily-logic/"><h3>Lily Logic</h3><p>Een rustige logische puzzel: één kikker per veld, rij en kolom.</p><span class="status">Binnenkort op Google Play</span></a>
+<a class="kaart" href="/games/football-director/"><h3>Football Director</h3><p>Een voetbalmanager waarin jij de trainer bent, niet de eigenaar.</p><span class="status">Binnenkort op Google Play</span></a>
+</div>
 </section>
 <section lang="en">
-<h2>One frog per patch, row and column</h2>
-<p>Lily Logic is a calm logic puzzle for Android. Every pond has exactly one solution and can be solved by pure logic. You never have to guess.</p>
-<p><a href="privacy.html#en">Privacy policy</a></p>
+<h2>Our games</h2>
+<p>Calm, honest games for your phone. No account, no pushy adverts: you only see an advert if you choose to.</p>
+<div class="kaarten">
+<a class="kaart" href="/games/lily-logic/"><h3>Lily Logic</h3><p>A calm logic puzzle: one frog per patch, row and column.</p><span class="status">Coming soon to Google Play</span></a>
+<a class="kaart" href="/games/football-director/"><h3>Football Director</h3><p>A football manager where you are the manager, not the owner.</p><span class="status">Coming soon to Google Play</span></a>
+</div>
 </section>
-<section>
+<section id="contact">
 <h3>Contact</h3>
 <p>JonaGames · <a href="mailto:info@gereed3d.nl">info@gereed3d.nl</a></p>
+<p><a href="/privacy.html">Privacy</a></p>
 </section>
-<footer>Lily Logic</footer>
+<footer>JonaGames · <a href="mailto:info@gereed3d.nl">info@gereed3d.nl</a></footer>
 </main>
 </body>
 </html>

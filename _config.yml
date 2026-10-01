@@ -1,0 +1,4 @@
+# GitHub Pages: alleen de gebouwde pagina's publiceren, niet de bronnen (zie build.py).
+exclude:
+  - bron
+  - build.py
