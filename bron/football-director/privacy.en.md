@@ -1,8 +1,8 @@
-# Privacy Policy — Football Director
+# Privacy Policy — Hot Seat
 
 **Last updated:** 1 October 2026
 
-Football Director is a football management game for Android, published by GEREED3D (the Netherlands). Questions? Email info@gereed3d.nl.
+Hot Seat (package name `nl.gereed3d.football_director`) is a football management game for Android, published by GEREED3D (the Netherlands). Questions? Email info@gereed3d.nl.
 
 ## In short
 

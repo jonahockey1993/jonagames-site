@@ -1,8 +1,8 @@
-# Privacyverklaring Football Director
+# Privacyverklaring Hot Seat
 
 **Laatst bijgewerkt:** 1 oktober 2026
 
-Football Director is een voetbalmanagerspel voor Android, uitgegeven door GEREED3D (Nederland). Vragen? Mail naar info@gereed3d.nl.
+Hot Seat (pakketnaam `nl.gereed3d.football_director`) is een voetbalmanagerspel voor Android, uitgegeven door GEREED3D (Nederland). Vragen? Mail naar info@gereed3d.nl.
 
 ## Kort
 
