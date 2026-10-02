@@ -13,6 +13,7 @@ Uitvoer (wordt gecommit, GitHub Pages serveert hem zo):
 - privacy.html                          algemene privacy plus een link per game
 - games/<slug>/index.html               pagina per game
 - games/<slug>/privacy.html             privacyverklaring per game (deze URL gaat naar Play Console)
+- app-ads.txt                           geen uitvoer van dit script: met de hand, AdMob-uitgevers-ID
 
 Een nieuwe game: een blok in games.json en een map bron/<slug>/ met twee privacyteksten.
 """
