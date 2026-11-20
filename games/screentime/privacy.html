@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy · Schermwacht</title>
+<meta name="description" content="Privacy policy of Schermwacht.">
+<style>
+:root { color-scheme: light; --tekst: #24443b; --accent: #2f5d50; --zacht: #4e8c7f; --vlak: #f7fbf9; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--tekst);
+       background: linear-gradient(#e8f3ee, #cfe6df) fixed; }
+.balk { position: sticky; top: 0; z-index: 10; background: rgba(247, 251, 249, .95);
+        box-shadow: 0 1px 8px rgba(36, 68, 59, .1); }
+.balk-in { max-width: 860px; margin: 0 auto; padding: 10px 16px; display: flex; align-items: center;
+           gap: 18px; flex-wrap: wrap; }
+.merk { font-weight: 600; letter-spacing: .06em; color: var(--accent); text-decoration: none; font-size: 1.15rem;
+        margin-right: auto; }
+.balk a, .balk summary { color: var(--accent); text-decoration: none; cursor: pointer; }
+.balk a:hover, .balk summary:hover { text-decoration: underline; }
+details.menu { position: relative; }
+details.menu summary { list-style: none; }
+details.menu summary::-webkit-details-marker { display: none; }
+details.menu summary::after { content: " ▾"; font-size: .8em; }
+details.menu[open] .lijst { display: block; }
+.lijst { display: none; position: absolute; right: 0; top: 2em; min-width: 220px; background: #fff;
+         border-radius: 14px; padding: 8px; box-shadow: 0 6px 24px rgba(36, 68, 59, .18); }
+.lijst a { display: block; padding: 8px 12px; border-radius: 10px; }
+.lijst a:hover { background: #e8f3ee; text-decoration: none; }
+.lijst small { display: block; color: var(--zacht); font-size: .8rem; }
+main { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+header.kop { text-align: center; padding: 24px 0 4px; }
+header.kop h1 { font-weight: 300; letter-spacing: .06em; font-size: 2.1rem; margin: 0; color: var(--accent); }
+header.kop p { margin: 4px 0 0; color: var(--zacht); }
+nav.taal { text-align: center; margin: 12px 0 8px; }
+nav.taal a { margin: 0 10px; color: var(--accent); }
+section { background: var(--vlak); border-radius: 24px; padding: 8px 28px 24px; margin: 24px 0;
+          box-shadow: 0 2px 10px rgba(36, 68, 59, .08); }
+.kaarten { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.kaart { background: #fff; border-radius: 18px; padding: 16px 20px; text-decoration: none; color: var(--tekst);
+         box-shadow: 0 2px 8px rgba(36, 68, 59, .08); }
+.kaart:hover { box-shadow: 0 4px 16px rgba(36, 68, 59, .18); }
+.kaart h3 { margin: 0 0 4px; }
+.kaart .status { color: var(--zacht); font-size: .85rem; }
+h2 { font-size: 1.4rem; margin-top: 1.2em; }
+h3 { font-size: 1.08rem; margin: 1.4em 0 .3em; color: var(--accent); }
+a { color: var(--accent); }
+li { margin: .3em 0; }
+footer { text-align: center; color: var(--zacht); font-size: .9rem; margin-top: 32px; }
+</style>
+</head>
+<body>
+<div class="balk"><div class="balk-in">
+<a class="merk" href="/">JonaGames</a>
+<details class="menu"><summary>Games</summary><div class="lijst">
+<a href="/games/lily-logic/">Lily Logic<small>Een rustige logische puzzel: één kikker per veld, rij en kolom.</small></a>
+<a href="/games/football-director/">Hot Seat<small>Een voetbalmanager waarin je baan altijd op het spel staat.</small></a>
+<a href="/games/screentime/">Schermwacht<small>Ouderlijk toezicht: schermtijd, bedtijd en apps vooraf goedkeuren.</small></a>
+</div></details>
+<a href="/privacy.html">Privacy</a>
+<a href="/#contact">Contact</a>
+</div></div>
+<main>
+<header class="kop"><h1>Schermwacht</h1></header>
+<nav class="taal"><a href="#nl">Nederlands</a> · <a href="#en">English</a> · <a href="/games/screentime/">Schermwacht</a></nav>
+<section id="nl" lang="nl">
+<h2>Privacyverklaring Schermwacht</h2>
+<p><strong>Laatst bijgewerkt:</strong> 20 november 2026</p>
+<p>Schermwacht is een app voor ouderlijk toezicht op Android van JonaGames ("wij"). Een ouder installeert de app op de eigen telefoon en op de tablet of telefoon van het kind. Vragen? Mail naar <a href="mailto:info@gereed3d.nl">info@gereed3d.nl</a>.</p>
+<h3>Kort</h3>
+<ul>
+<li>Schermwacht is bedoeld voor ouders, om de schermtijd en apps van hun eigen minderjarige kind te beheren. Op het toestel van het kind staat altijd een melding dat Schermwacht actief is.</li>
+<li>Alle gegevens staan in het gezinsaccount van de ouder, bij Google Firebase. Alleen dat account kan erbij.</li>
+<li>Geen advertenties, geen analyse- of trackingdiensten, en we verkopen of delen niets.</li>
+<li>Locatiegeschiedenis en netwerklogboeken worden na 7 dagen verwijderd. Al het andere verwijder je in één keer door je account te verwijderen.</li>
+</ul>
+<h3>Welke gegevens en waarom</h3>
+<ul>
+<li><strong>Gezinsaccount:</strong> e-mailadres en wachtwoord (via Firebase Authentication van Google). Om in te loggen op de telefoon van de ouder en het toestel van het kind.</li>
+<li><strong>Toestel van het kind:</strong> de naam die je het toestel geeft, merk en model, batterijniveau, appversie, de gebruikte schermtijd en of het toestel op slot staat. Zodat je op je telefoon ziet hoe het ervoor staat.</li>
+<li><strong>Apps:</strong> de namen en pakketnamen van apps met een pictogram op het toestel van het kind, met of je ze hebt goedgekeurd. Plus de namen van apps die je kind in de Play Store aanvraagt.</li>
+<li><strong>App-gebruik</strong> (alleen als je dat toestaat): hoe lang welke apps vandaag gebruikt zijn, voor het overzicht op je telefoon.</li>
+<li><strong>Verzoeken:</strong> verzoeken om extra tijd, met het optionele berichtje dat je kind erbij typt.</li>
+<li><strong>Locatie:</strong> de GPS-locatie van het toestel van het kind, ook als de app gesloten is of niet wordt gebruikt (op de achtergrond). Zo zie je als ouder waar het toestel is. We bewaren de laatste locatie en een geschiedenis van 7 dagen.</li>
+<li><strong>Netwerklogboek:</strong> de naam van het wifinetwerk, signaalsterkte, uitkomsten van korte verbindingstests en wanneer YouTube werd geopend. Om haperende verbindingen te kunnen verklaren. Wordt na 7 dagen verwijderd.</li>
+</ul>
+<h3>Toegankelijkheidsservice</h3>
+<p>Op het toestel van het kind gebruikt Schermwacht, na toestemming van de ouder, de toegankelijkheidsservice van Android. Daarmee ziet Schermwacht welke app er open staat. Zo gaat het toestel op slot op de tijden die de ouder instelt, worden apps geblokkeerd die de ouder nog niet heeft goedgekeurd, verschijnt in de Play Store een knop "Vragen" om een app aan te vragen, en kan Schermwacht niet zonder de ouder-PIN worden uitgezet of verwijderd. Schermwacht leest daarvoor de namen van apps en knoppen op het scherm. Wat er getypt wordt, berichten en wachtwoorden worden niet gelezen of opgeslagen. Alleen de naam van een aangevraagde app gaat naar het gezinsaccount.</p>
+<h3>Waar de gegevens staan</h3>
+<p>In Cloud Firestore en Firebase Authentication van Google, onder het gezinsaccount. Google verwerkt de gegevens namens ons en kan dat buiten de Europese Unie doen, onder meer op basis van het EU-VS Data Privacy Framework en standaardcontractbepalingen. Meer informatie: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a>.</p>
+<h3>Grondslag</h3>
+<p>We verwerken de gegevens om de dienst te leveren die de ouder vraagt (uitvoering van de overeenkomst). Locatie, app-gebruik en de toegankelijkheidsservice gebruiken we alleen na toestemming, die je altijd weer kunt intrekken in de Android-instellingen.</p>
+<h3>Kinderen</h3>
+<p>Schermwacht is een app voor ouders (18+). De ouder installeert de app op het toestel van het eigen kind, stelt hem in en is verantwoordelijk voor dat gebruik. Gegevens over het kind worden alleen verzameld zodat de ouder ze kan zien, en niet voor andere doelen gebruikt.</p>
+<h3>Bewaren en verwijderen</h3>
+<p>Locatiegeschiedenis en netwerklogboeken worden na 7 dagen verwijderd. Andere gegevens blijven tot je ze verwijdert. Je kunt je account en alle gegevens verwijderen in de app (menu ⋮ → Account verwijderen) of per e-mail; zie hieronder.</p>
+<h3>Je rechten</h3>
+<p>Volgens de AVG heb je recht op inzage, correctie, verwijdering, beperking, bezwaar en overdraagbaarheid. Mail naar <a href="mailto:info@gereed3d.nl">info@gereed3d.nl</a>. Je kunt ook een klacht indienen bij de Autoriteit Persoonsgegevens.</p>
+<h3>Wijzigingen</h3>
+<p>Als de app verandert, passen we deze verklaring aan. De datum bovenaan laat zien wanneer dat het laatst gebeurde.</p>
+<h3>Account en gegevens verwijderen</h3>
+<p>Je kunt je Schermwacht-gezinsaccount en alle gegevens die erbij horen op twee manieren verwijderen.</p>
+<p><strong>In de app</strong></p>
+<ul>
+<li>Open Schermwacht op je eigen telefoon (de ouder-telefoon).</li>
+<li>Tik rechtsboven op het menu ⋮ en kies <strong>Account verwijderen</strong>.</li>
+<li>Vul je wachtwoord in en tik op <strong>Definitief verwijderen</strong>.</li>
+</ul>
+<p><strong>Per e-mail</strong></p>
+<p>Mail vanaf het e-mailadres van je gezinsaccount naar <a href="mailto:info@gereed3d.nl">info@gereed3d.nl</a> met als onderwerp "Schermwacht account verwijderen". We verwijderen het account binnen 30 dagen en laten het je weten.</p>
+<p><strong>Wat er verwijderd wordt</strong></p>
+<p>Alles: het gezinsaccount (e-mailadres en wachtwoord), de gekoppelde toestellen en hun instellingen, app-lijsten en goedkeuringen, verzoeken, locaties en netwerklogboeken. We bewaren niets. Zet daarna Schermwacht op het toestel van je kind uit via het Ouder-menu met je PIN en verwijder de app.</p>
+</section>
+<section id="en" lang="en">
+<h2>Schermwacht privacy policy</h2>
+<p><strong>Last updated:</strong> 20 November 2026</p>
+<p>Schermwacht is a parental control app for Android by JonaGames ("we"). A parent installs the app on their own phone and on their child's tablet or phone. Questions? Email <a href="mailto:info@gereed3d.nl">info@gereed3d.nl</a>.</p>
+<h3>Summary</h3>
+<ul>
+<li>Schermwacht is meant for parents, to manage screen time and apps of their own minor child. The child's device always shows a notification that Schermwacht is active.</li>
+<li>All data is stored in the parent's family account at Google Firebase. Only that account can access it.</li>
+<li>No ads, no analytics or tracking services, and we do not sell or share anything.</li>
+<li>Location history and network logs are deleted after 7 days. Everything else is removed at once when you delete your account.</li>
+</ul>
+<h3>What data and why</h3>
+<ul>
+<li><strong>Family account:</strong> email address and password (via Google's Firebase Authentication), to sign in on the parent's phone and the child's device.</li>
+<li><strong>Child's device:</strong> the name you give it, make and model, battery level, app version, screen time used and whether it is locked, so you can see its status on your phone.</li>
+<li><strong>Apps:</strong> names and package names of apps with an icon on the child's device, and whether you approved them, plus names of apps your child requests in the Play Store.</li>
+<li><strong>App usage</strong> (only if you allow it): how long each app was used today, for the overview on your phone.</li>
+<li><strong>Requests:</strong> requests for extra time, with the optional message your child adds.</li>
+<li><strong>Location:</strong> the GPS location of the child's device, also when the app is closed or not in use (in the background), so you can see where the device is. We keep the latest location and a 7-day history.</li>
+<li><strong>Network log:</strong> Wi-Fi network name, signal strength, results of short connection tests and when YouTube was opened, to explain unreliable connections. Deleted after 7 days.</li>
+</ul>
+<h3>Accessibility service</h3>
+<p>On the child's device, with the parent's consent, Schermwacht uses Android's accessibility service to see which app is open. This lets it lock the device at the times the parent sets, block apps the parent has not approved yet, show an "Ask" button in the Play Store to request an app, and prevent Schermwacht from being turned off or uninstalled without the parent PIN. For this it reads the names of apps and buttons on screen. Typed text, messages and passwords are not read or stored. Only the name of a requested app is sent to the family account.</p>
+<h3>Where the data is stored</h3>
+<p>In Google's Cloud Firestore and Firebase Authentication, under the family account. Google processes the data on our behalf and may do so outside the European Union, relying among other things on the EU-US Data Privacy Framework and standard contractual clauses. More information: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a>.</p>
+<h3>Legal basis</h3>
+<p>We process the data to provide the service the parent asks for (performance of a contract). Location, app usage and the accessibility service are only used with consent, which you can withdraw at any time in Android's settings.</p>
+<h3>Children</h3>
+<p>Schermwacht is an app for parents (18+). The parent installs it on their own child's device, sets it up and is responsible for that use. Data about the child is collected only so the parent can see it, and is not used for anything else.</p>
+<h3>Retention and deletion</h3>
+<p>Location history and network logs are deleted after 7 days. Other data is kept until you delete it. You can delete your account and all data in the app (menu ⋮ → Delete account) or by email; see below.</p>
+<h3>Your rights</h3>
+<p>Under the GDPR you have the right to access, rectification, erasure, restriction, objection and portability. Email <a href="mailto:info@gereed3d.nl">info@gereed3d.nl</a>. You may also lodge a complaint with your data protection authority.</p>
+<h3>Changes</h3>
+<p>When the app changes, we update this policy. The date at the top shows when that last happened.</p>
+<h3>Delete your account and data</h3>
+<p>You can delete your Schermwacht family account and all data that belongs to it in two ways.</p>
+<p><strong>In the app</strong></p>
+<ul>
+<li>Open Schermwacht on your own phone (the parent phone).</li>
+<li>Tap the menu ⋮ at the top right and choose <strong>Account verwijderen</strong> (Delete account).</li>
+<li>Enter your password and tap <strong>Definitief verwijderen</strong> (Delete permanently).</li>
+</ul>
+<p><strong>By email</strong></p>
+<p>Email <a href="mailto:info@gereed3d.nl">info@gereed3d.nl</a> from the email address of your family account with the subject "Delete Schermwacht account". We delete the account within 30 days and let you know.</p>
+<p><strong>What is deleted</strong></p>
+<p>Everything: the family account (email address and password), linked devices and their settings, app lists and approvals, requests, locations and network logs. We keep nothing. Afterwards, turn off Schermwacht on your child's device via the Parent menu with your PIN and uninstall the app.</p>
+</section>
+<footer>JonaGames · <a href="mailto:info@gereed3d.nl">info@gereed3d.nl</a></footer>
+</main>
+</body>
+</html>
