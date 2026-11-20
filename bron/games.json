@@ -3,7 +3,10 @@
     "slug": "lily-logic",
     "naam": "Lily Logic",
     "uitgever": "JonaGames",
-    "status": {"nl": "Binnenkort op Google Play", "en": "Coming soon to Google Play"},
+    "status": {
+      "nl": "Binnenkort op Google Play",
+      "en": "Coming soon to Google Play"
+    },
     "kort": {
       "nl": "Een rustige logische puzzel: één kikker per veld, rij en kolom.",
       "en": "A calm logic puzzle: one frog per patch, row and column."
@@ -17,7 +20,10 @@
     "slug": "football-director",
     "naam": "Hot Seat",
     "uitgever": "GEREED3D",
-    "status": {"nl": "Binnenkort op Google Play", "en": "Coming soon to Google Play"},
+    "status": {
+      "nl": "Binnenkort op Google Play",
+      "en": "Coming soon to Google Play"
+    },
     "kort": {
       "nl": "Een voetbalmanager waarin je baan altijd op het spel staat.",
       "en": "A football manager where your job is always on the line."
@@ -25,6 +31,23 @@
     "lang": {
       "nl": "Begin onderaan het Engelse voetbal en werk je omhoog door vijf competities. Het bestuur stelt een doel, hun geduld raakt op als de resultaten uitblijven, en clubs nemen je aan en ontslaan je. Bekijk elke wedstrijd live op het veld en pas tactiek, rollen en wissels aan terwijl het gebeurt. Scout, koop en verkoop spelers, onderhandel over salarissen, ontwikkel jeugd en neem staf aan. Geen account en geen internetverbinding nodig.",
       "en": "Start at the bottom of English football and work your way up through five leagues. The board sets a target, their patience runs out when results don't come, and clubs hire and sack you. Watch every match on a live pitch and change tactics, roles and substitutions as it happens. Scout, buy and sell players, negotiate wages, develop youth players and hire staff. No account and no internet connection needed."
+    }
+  },
+  {
+    "slug": "screentime",
+    "naam": "Schermwacht",
+    "uitgever": "JonaGames",
+    "status": {
+      "nl": "In test op Google Play",
+      "en": "In testing on Google Play"
+    },
+    "kort": {
+      "nl": "Ouderlijk toezicht: schermtijd, bedtijd en apps vooraf goedkeuren.",
+      "en": "Parental control: screen time, bedtime and approving apps first."
+    },
+    "lang": {
+      "nl": "Schermwacht is een app voor ouders. Stel schermtijd en bedtijd in voor de tablet van je kind, geef op afstand extra tijd, en keur apps goed voordat ze gebruikt worden. Je kind kan in de Play Store met één tik een app aanvragen. Je ziet op je telefoon hoe het ervoor staat en waar de tablet is.",
+      "en": "Schermwacht is an app for parents. Set screen time and bedtime for your child's tablet, give extra time remotely, and approve apps before they are used. Your child can request an app in the Play Store with one tap. You see the status and location of the tablet on your phone."
     }
   }
 ]
